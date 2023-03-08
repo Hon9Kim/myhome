@@ -5,6 +5,7 @@ import Projects from './Projects';
 import { useState, useRef } from 'react';
 
 function Alert() {
+    const test = 0;
     const navigate = useNavigate();
 
     const [show, setShow] = useState(true);
